@@ -7,21 +7,21 @@
 // 3.Variable names cannot begin with a number.
 
 // Syntax:
-void main(){
-  var name="Syntax";
-  print(name);
-  }
+// void main(){
+//   var name="Syntax";
+//   print(name);
+//   }
 // Type annotations:
-void main(){
- late int num2;
-  print(num2);
-  int num=2;
-  print(num);
-}
+// void main(){
+//  late int num2;
+//   print(num2);
+//   int num=2;
+//   print(num);
+// }
 // final,constant,dynamic
 //Syntax:
 final name="You tube";
-const pi;
+const pi=3.14;
 void main(){
  dynamic  num=2;
   //you can also change the value later
