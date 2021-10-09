@@ -1,21 +1,21 @@
 //Conditional Statements
-//If the condition satisfies we'll perform some particular task if not do some other tasks.
-//Types:
+//If the condition satisfies => perform some task ,
+// If doesnot do some task
+//Types
 //1.if
 //2.if else
-//3. else if ladder
-//4.Nested if 
-
-// IF:
+//3.else if ladder
+//4.Nested if
+//If 
 // void main(){
 //   int n=12;
 //   if(n==18){
 //     print("Your eligible to vote");
 //   }
 // }
-//IF else
+//If else
 // void main(){
-//   int n=12;
+//   int n=30;
 //   if(n>=18){
 //     print("Your eligible to vote");
 //   }
@@ -23,14 +23,16 @@
 //     print("Not eligible");
 //   }
 // }
-// Else if ladder
+//else if ladder
+
+
 // void main(){
-//   int n=12;
-//   if(n>100){
-//     print("It is a bigger number");
+//   int n=1;
+//   if(n>=100){
+//     print("Bigger number");
 //   }
-//   else if(n<100){
-//     print("It is a 2 digit number");
+//   else if(n<100 && n>10){
+//     print("it is a 2 digit number");
 //   }
 //   else if(n<10){
 //     print("Single digit number");
@@ -39,10 +41,13 @@
 //     print("Not valid");
 //   }
 // }
-//Nested if
+
+//Nested If
+
 void main(){
-  int n=120;
-  if(n>100){
+  int n=201;
+  if(n>=18){
+    print("Eligible");
     if(n%2==0){
       print("Even");
     }
@@ -51,8 +56,9 @@ void main(){
     }
   }
   else{
-    print("Give a number greater than 100");
+    print("Not eligible");
   }
+  
 }
 
 
